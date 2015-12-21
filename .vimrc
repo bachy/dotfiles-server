@@ -13,3 +13,6 @@ autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "norm
 autocmd BufWritePre * :%s/\s\+$//e
 
 syntax on
+set t_Co=256
+let g:solarized_termcolors=256
+colorscheme solarized
