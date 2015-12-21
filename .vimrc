@@ -14,5 +14,5 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 syntax on
 set t_Co=256
-let g:solarized_termcolors=256
-colorscheme solarized
+let g:molokai_termcolors=256
+colorscheme molokai
