@@ -23,6 +23,6 @@ These dotfiles do not override native commands.
 
 Run the following command:
 
-	git clone git://g-u-i.me/gogs/bachir/dotfiles-server.git ~/.dotfiles-server && cd ~/.dotfiles-server && ./install.sh && cd -
+	git clone https://g-u-i.me/gogs/bachir/dotfiles-server.git ~/.dotfiles-server && cd ~/.dotfiles-server && ./install.sh && cd -
 
 You'll be prompted for an environment (for example: staging, production, ..). This is to easily spot the server we're on.
