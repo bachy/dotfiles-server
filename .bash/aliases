@@ -1,6 +1,8 @@
+#!/bin/bash
+
 # You may uncomment the following lines if you want `ls' to be colorized:
 export LS_OPTIONS='--color=always'
-eval "`dircolors`"
+/* eval "`dircolors ~/.bash/dircolors`" */
 alias ls='ls $LS_OPTIONS -lsh'
 alias la='ls $LS_OPTIONS -lsah'
 alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e
@@ -22,4 +24,3 @@ alias free='free -m'                      # show sizes in MB
 alias mysqlr='mysql -u root -p'
 
 alias df="df -kTh"
-
